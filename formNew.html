@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 class="heading">Create Account</h2>
+        </div>
+        <form action="" id="form" class="form">
+            <div class="form_control ">
+                <label for="">Username</label>
+                <input type="text" id="username" placeholder="Username">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error</small>
+            </div>
+            <div class="form_control ">
+                <label for="">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error</small>
+                <div class="context " id="context">
+                    <span class="psw minimum">Minimum 8 characters long</span>
+                    <span class="psw upper">Atleast one Uppercase Letter</span>
+                    <span class="psw lower">Atleast one Lowercase Letter</span>
+                    <span class="psw numeric">Atleast one Numeric Character</span>
+                </div>
+            </div>
+            <div class="form_control">
+                <label for="">Confirm Password</label>
+                <input type="password" id="password1" name="password1" placeholder="Confirm password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error</small>
+            </div>
+            <div class="form_control">
+                <label for="">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@abc.com">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error</small>
+            </div>
+            <button class="btn" id="btn_sub">Submit</button>
+        </form>
+
+
+    </div>
+    <script src="form2.js" defer></script>
+</body>
+
+</html>
